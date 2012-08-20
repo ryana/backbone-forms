@@ -71,7 +71,8 @@ var Form = (function() {
       
       //Create el from template
       var $form = $(template({
-        fieldsets: '<b class="bbf-tmp"></b>'
+        fieldsets: '<b class="bbf-tmp"></b>',
+        form_view: self
       }));
 
       //Render fieldsets
